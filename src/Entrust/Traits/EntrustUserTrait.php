@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
-use Illuminate\Support\Str;
 
 trait EntrustUserTrait
 {
@@ -307,7 +306,7 @@ trait EntrustUserTrait
     }
 
     /**
-     *Filtering users according to their role 
+     *Filtering users according to their role
      *
      *@param string $role
      *@return users collection
